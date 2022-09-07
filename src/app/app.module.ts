@@ -7,6 +7,11 @@ import {MatIconModule} from '@angular/material/icon';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SidebarComponent } from './nav/sidebar/sidebar.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatListModule} from '@angular/material/list';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +24,12 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatToolbarModule,
     MatIconModule,
     NgbModule,
-    NgbModule
+    NgbModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatCheckboxModule,
+    FormsModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
